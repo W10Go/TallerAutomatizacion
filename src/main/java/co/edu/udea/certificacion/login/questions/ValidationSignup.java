@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 import static co.edu.udea.certificacion.login.userinterfaces.DashboardPage.GREETINGS_FIELD;
 
-public class ValidationLogin implements Question<Boolean> {
+public class ValidationSignup implements Question<Boolean> {
     @Override
     public Boolean answeredBy(Actor actor) {
         try {
@@ -17,10 +17,12 @@ public class ValidationLogin implements Question<Boolean> {
             throw new RuntimeException(e);
         }
         String actualText = Text.of(GREETINGS_FIELD).answeredBy(actor);
-        return actualText.contains("Bienvenido, testini tested");
+        return actualText.contains("¡Bienvenido, Test Creation!");
     }
 
-    public static ValidationLogin greetings() {
-        return new ValidationLogin();
+    public static ValidationSignup greetings() {
+        return new ValidationSignup();
     }
+
+
 }

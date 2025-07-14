@@ -3,13 +3,10 @@ package co.edu.udea.certificacion.login.questions;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Text;
-import net.serenitybdd.screenplay.waits.WaitUntil;
 
 import java.util.concurrent.TimeUnit;
 
-import static co.edu.udea.certificacion.login.userinterfaces.DashboardPage.GREETINGS_FIELD;
 import static co.edu.udea.certificacion.login.userinterfaces.LoginPage.ERROR_MESSAGE;
-import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
 public class ValidationLoginWithBadCredentials implements Question<Boolean> {
     @Override

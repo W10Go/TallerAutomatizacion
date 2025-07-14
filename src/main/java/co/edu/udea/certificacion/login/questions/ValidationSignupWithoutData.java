@@ -4,12 +4,11 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Text;
 
-
 import java.util.concurrent.TimeUnit;
 
-import static co.edu.udea.certificacion.login.userinterfaces.LoginPage.ERROR_MESSAGE;
+import static co.edu.udea.certificacion.login.userinterfaces.RegisterPage.ERROR_MESSAGE;
 
-public class ValidationLoginWithoutCredentials implements Question<Boolean> {
+public class ValidationSignupWithoutData implements Question<Boolean> {
     @Override
     public Boolean answeredBy(Actor actor) {
         try {
@@ -18,11 +17,10 @@ public class ValidationLoginWithoutCredentials implements Question<Boolean> {
             throw new RuntimeException(e);
         }
         String actualText = Text.of(ERROR_MESSAGE).answeredBy(actor);
-        System.out.println(actualText);
-        return actualText.contains("Todos los campos son obligatorios");
+        return actualText.contains("Por favor, completa todos los campos obligatorios.");
     }
 
-    public static ValidationLoginWithoutCredentials error() {
-        return new ValidationLoginWithoutCredentials();
+    public static ValidationSignupWithoutData error() {
+        return new ValidationSignupWithoutData();
     }
 }
