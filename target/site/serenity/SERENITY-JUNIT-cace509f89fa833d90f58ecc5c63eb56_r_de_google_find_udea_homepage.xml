@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Consultar la pagina principal de la U de A" skipped="0" tests="1" time="0.19" timestamp="2025-07-14 11:47:54"><testcase name="Buscar la pagina oficial de la U de A en el motor de Google"><failure message="&#10;Expected: an element that is visible&#10;     but: no matching element found by [home page udea located with: //*[@id='layoutContainers']/div/div[2]/div/div[1]/section/div[2]/div[4]/a[1]/span[2]]" type="java.lang.AssertionError">
+Expected: an element that is visible
+     but: no matching element found by [home page udea located with: //*[@id='layoutContainers']/div/div[2]/div/div[1]/section/div[2]/div[4]/a[1]/span[2]]</failure><system-err>
+Expected: an element that is visible
+     but: no matching element found by [home page udea located with: //*[@id='layoutContainers']/div/div[2]/div/div[1]/section/div[2]/div[4]/a[1]/span[2]]&#13;
+co.edu.udea.certificacion.login.questions.ValidationHomePage.answeredBy(ValidationHomePage.java:15)&#13;
+co.edu.udea.certificacion.login.questions.ValidationHomePage.answeredBy(ValidationHomePage.java:11)&#13;
+co.edu.udea.certificacion.login.stepdefinitions.LoginCitaSaludRunnerStepDefinition.puedo_ver_el_link_de_la_pagina_oficial_de_la_U_de_A(FindHomePageStepDefinition.java:45)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+</system-err></testcase></testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Consultar la pagina principal de la U de A" skipped="0" tests="1" time="2.87" timestamp="2025-07-14 12:01:33"><testcase name="Buscar la pagina oficial de la U de A en el motor de Google"><failure message="Expected condition failed: waiting for By.xpath: //*[@id='kp-wp-tab-overview']/div[1]/div/div/div/div/div/div/div/div/div/div/div/div[1]/div/span/a/h3 to be present (tried for 5 second(s) with 100 milliseconds interval)&#10;Build info: version: '4.16.1', revision: '9b4c83354e'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException">Expected condition failed: waiting for By.xpath: //*[@id='kp-wp-tab-overview']/div[1]/div/div/div/div/div/div/div/div/div/div/div/div[1]/div/span/a/h3 to be present (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: driver.version: unknown</failure><system-err>Expected condition failed: waiting for By.xpath: //*[@id='kp-wp-tab-overview']/div[1]/div/div/div/div/div/div/div/div/div/div/div/div[1]/div/span/a/h3 to be present (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: driver.version: unknown&#13;
+co.edu.udea.certificacion.login.interactions.UdeAHomePageGo.performAs(UdeAHomePageGo.java:19)&#13;
+co.edu.udea.certificacion.login.tasks.FindThe.performAs(FindThe.java:12)&#13;
+co.edu.udea.certificacion.login.stepdefinitions.LoginCitaSaludStepDefinition.escribe_la_palabra_U_de_A(FindHomePageStepDefinition.java:44)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+</system-err></testcase></testsuite>
