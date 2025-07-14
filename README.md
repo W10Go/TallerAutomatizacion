@@ -1,6 +1,9 @@
 # TallerAutomatizacion
-Taller de Automatización de Diego Alejandro Carvajal Díaz, para la materia de Calidad del Software
+Taller de Automatización, para la materia de Calidad del Software
 
+# Integrantes
+ - Juan Pablo Zuluaga Jaramillo
+ - Diego Alejandro Carvajal Díaz
 
 # Video Inicio de sesión 
 https://drive.google.com/file/d/1PL2JwuoXtPqDBZtIYObIAFxCuu4NnyaJ/view?usp=drivesdk
