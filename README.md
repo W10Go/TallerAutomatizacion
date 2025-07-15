@@ -1,5 +1,5 @@
 # TallerAutomatizacion
-Taller de Automatización, para la materia de Calidad del Software
+Taller de Automatización de Fabrica Escuela, para la materia de Calidad del Software
 
 # Integrantes
  - Juan Pablo Zuluaga Jaramillo
